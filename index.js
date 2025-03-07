@@ -13,7 +13,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "https://socket-react-ui.vercel.app/",
+        origin: "https://socket-react-ui.vercel.app",
         methods: ["GET", "POST"]
     }
 })
